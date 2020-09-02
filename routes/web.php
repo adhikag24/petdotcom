@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/', 'HomeController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/contact', 'PagesController@contact');
+Route::get('/pet-data', 'PetsController@index');
+Route::get('/user-data', 'UsersController@index');

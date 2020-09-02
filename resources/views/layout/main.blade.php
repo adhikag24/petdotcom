@@ -19,11 +19,28 @@
             </a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-            <a class="nav-item nav-link" href="{{url('/')}}">Home</a>
-            <a class="nav-item nav-link" href="{{url('/pets')}}">Pets</a>
-            <a class="nav-item nav-link" href="{{url('/about')}}">About</a>
-            <a class="nav-item nav-link" href="{{url('/contact')}}">Contact</a>
+              <a class="nav-item nav-link" href="{{url('/')}}">Home</a>
+              <a class="nav-item nav-link" href="{{url('/pets')}}">Pets</a>
+              <a class="nav-item nav-link" href="{{url('/about')}}">About</a>
+              <a class="nav-item nav-link" href="{{url('/contact')}}">Contact</a> 
             </div>
+
+            <div class="navbar-nav ml-auto">
+
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Admin
+              </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="{{url('/pet-data')}}">Pet Data</a>
+                  <a class="dropdown-item" href="{{url('/user-data')}}">User Data</a>
+                  <a class="dropdown-item" href="{{url('/pet-request')}}">Pet Request</a>    
+              </div>
+              </div>
+              <a class="nav-item nav-link" href="{{url('/contact')}}">Login</a> 
+            </div>
+
+            </ul>
             </div>
             </div>
         </nav>

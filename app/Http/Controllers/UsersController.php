@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PetsController extends Controller
+class UsersController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class PetsController extends Controller
      */
     public function index()
     {
-        return view('pet-admin/index');
+        return view('user-data/index');
     }
 
     /**
