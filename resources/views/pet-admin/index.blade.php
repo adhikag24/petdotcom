@@ -6,7 +6,8 @@
 @section('container')
 <div class="container mt-5 mb-5">
 <h2 class="text-center mb-3">Pet Data</h2>
-<button class="btn btn-success mb-3">Add Pet (+)</button>
+<a href="{{url('pet-data/add-pet')}}"> <button class="btn btn-success mb-3">Add Pet</button></a>
+
 <table class="table">
   <thead>
     <tr>

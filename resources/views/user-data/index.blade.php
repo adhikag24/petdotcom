@@ -1,12 +1,12 @@
 @extends('layout.main')
 <!-- Kalo ada section dengan nama title isi dengan cobaLaravel -->
-@section('title', 'Home')
+@section('title', 'Pet Data')
 
 <!-- Lebih dari 1 baris pakai tutup -->
 @section('container')
 <div class="container mt-5 mb-5">
 <h2 class="text-center mb-3">Users Data</h2>
-<button class="btn btn-success mb-3">Add Admin</button>
+<a href="{{url('/user-data/add-admin')}}"> <button class="btn btn-success mb-3">Add Admin</button></a>
 <table class="table">
   <thead>
     <tr>

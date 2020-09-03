@@ -22,3 +22,7 @@ Route::get('/about', 'PagesController@about');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/pet-data', 'PetsController@index');
 Route::get('/user-data', 'UsersController@index');
+Route::get('pet-data/add-pet', 'PetsController@create');
+Route::get('user-data/add-admin', 'UsersController@create');
+
+
